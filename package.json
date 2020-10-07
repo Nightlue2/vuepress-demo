@@ -1,0 +1,15 @@
+{
+  "devDependencies": {
+    "vuepress": "^1.6.0",
+    "vuepress-theme-reco": "^1.5.7"
+  },
+  "name": "vuepress-blog",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "deploy": "bash deploy.sh"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT"
+}

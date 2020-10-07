@@ -8,7 +8,7 @@ tags:
  - background
 categories: 
  - 前端
-publish: true
+publish: false
 
 ---
 
@@ -16,7 +16,7 @@ publish: true
 
 ### background-image
 
-###  background-size
+### background-size
 
 ### background-position
 

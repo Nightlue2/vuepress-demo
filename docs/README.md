@@ -3,10 +3,8 @@
 home: true
 bgImage: /bg.jpg
 bgImageStyle: {
-    min-height: '20vh',
-    height: '44vh',
     background-size: cover,
-    background-position: center -155px,
+    background-position: center center,
     filter: brightness(85%)
 }
 heroText: 早安~~

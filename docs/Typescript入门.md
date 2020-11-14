@@ -36,7 +36,7 @@ yarn global add typescript
 
 而像true这种就要注意：
 
-```
+```typescript
 let a:boolean = true //通过
 let b:Boolean = true //不通过
 let c:boolean = new Boolean(1) //不通过
@@ -50,7 +50,7 @@ let e:Boolean = Boolean(1) //通过
 
 任意属性：一个接口中不确定的属性名，但确定属性值的类型，则可以：
 
-```
+```typescript
 interface Person{
 	[propName:string]:string; //表示有一个不确定的属性可以是string类型
 }
@@ -62,13 +62,13 @@ interface Person{
 
 一般的声明方式：
 
-```
+```typescript
 let arr:number[] = [1,2]
 ```
 
 泛型：
 
-```
+```typescript
 let arr:Array<number> = [1,2]
 ```
 
@@ -76,7 +76,7 @@ let arr:Array<number> = [1,2]
 
 函数中的参数如果要赋值给其他变量使用，则需用到上面的类数组：
 
-```
+```typescript
 function fun(){
 	let args:{
 		[index:number]:number;
@@ -88,7 +88,7 @@ function fun(){
 
 任意类型的数组：
 
-```
+```typescript
 let list:any[] = [1,'1',{xxx:'1'}]
 ```
 

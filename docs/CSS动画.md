@@ -1,4 +1,4 @@
-```
+---
 title: CSS动画
 date: 2020-10-26 22:16:00 
 sidebar: 'auto'
@@ -8,7 +8,8 @@ tags:
 categories: 
  - 前端
 publish: true
-```
+
+---
 
 <!-- more -->
 

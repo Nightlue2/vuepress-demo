@@ -1,4 +1,4 @@
-```
+---
 title: Vue数据传递
 date: 2020-10-09 15:03:00 
 sidebar: 'auto'
@@ -8,7 +8,8 @@ tags:
 categories: 
  - 前端
 publish: true
-```
+
+---
 
 <!-- more -->
 
